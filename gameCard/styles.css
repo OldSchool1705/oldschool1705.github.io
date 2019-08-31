@@ -112,7 +112,7 @@ body {
     right: 0;
 }
 
-.spider {
+.face {
     width: 100%;
     height: 100%;
     align-self: flex-start;
@@ -120,7 +120,7 @@ body {
     transform: translateY(-10px);
 }
 
-.card-back:hover .spider {
+.card-back:hover .face {
     transform: translateY(0);
 }
 
@@ -155,6 +155,11 @@ body {
 
 .overlay-text-small {
     font-size: .3em;
+}
+
+.matched {
+    transform: scale(0);
+    transition: .6s .8s;
 }
 
 .overlay-text.visible {
