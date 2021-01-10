@@ -6,7 +6,7 @@ if(!empty($_POST)){
 // error_reporting(-1);
 
 
-$to = "<an1984tonn@ya.ru>";
+$to = "<oldschool1705@gmail.com>";
 $url = "<sait.ru>";
 
 
